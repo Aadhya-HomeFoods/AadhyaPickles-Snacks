@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Cart - Aadhya Home Foods</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+    Aadhya Home Food's
+    <img src="images/mango.jpg" alt="Logo" class="logo-img">
+    </div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="cart.html">Cart</a>
+    </nav>
+</header>
+
+<section class="cart-section">
+    <h2>Your Cart</h2>
+
+    <div id="cartItems"></div>
+
+    <h3>Total: ₹<span id="totalAmount">0</span></h3>
+
+    <button class="checkout-btn" onclick="showCheckout()">
+        Order Now
+    </button>
+</section>
+
+<!-- ✅ ADD THIS WHOLE BLOCK BELOW -->
+<div id="checkoutSection" class="checkout-container" style="display:none;">
+
+    <h2>Delivery Address Details</h2>
+
+    <div class="form-section">
+        <input type="text" id="name" placeholder="Full Name">
+        <input type="tel" id="phone" maxlength="10" oninput="this.value=this.value.replace(/[^0-9]/g,'')" pattern="[0-9]{10}" inputmode="numeric" 
+            placeholder="Enter 10 digit phone number" required>
+        <input type="text" id="house" placeholder="House No / Apartment">
+        <input type="text" id="street" placeholder="Street">
+        <input type="text" id="landmark" placeholder="Landmark (Optional)">
+        <input type="text" id="city" placeholder="City">
+        <input type="text" id="district" placeholder="District">
+        <input type="text" id="pincode" oninput="this.value=this.value.replace(/[^0-9]/g,'')" maxlength="6" pattern="[0-9]{6}" inputmode="numeric" 
+        placeholder="Enter 6 digit pincode" required>
+    </div>
+
+    <h3>Your Order Summary</h3>
+    <div id="orderSummary"></div>
+
+    <h3>Total: ₹ <span id="finalTotal">0</span></h3>
+
+    <button onclick="sendToWhatsApp()" class="checkout-btn">
+        Order Via WhatsApp
+    </button>
+
+</div>
+
+
+<div id="toast"></div>
+<script src="script.js"></script>
+
+</body>
+</html>
