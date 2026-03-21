@@ -820,7 +820,7 @@ button[id^="add-btn-"] {
 
 #stickyCart {
   position: fixed;
-  bottom: 15px;   /* 👈 space from bottom */
+  bottom: 18px;   /* 👈 space from bottom */
   left: 50%;
   transform: translateX(-50%);
   width: 90%;
