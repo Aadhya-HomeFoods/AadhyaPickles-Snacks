@@ -820,7 +820,7 @@ button[id^="add-btn-"] {
 
 #stickyCart {
   position: fixed;
-  bottom: 18px;   /* 👈 space from bottom */
+  bottom: 20px;   /* 👈 space from bottom */
   left: 50%;
   transform: translateX(-50%);
   width: 90%;
@@ -830,15 +830,15 @@ button[id^="add-btn-"] {
   color: white;
   text-align: center;
 
-  padding: 15px;
+  padding: 20px;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 20px;
 
   display: none;
   z-index: 1000;
   cursor: pointer;
 
-  border-radius: 10px;   /* 👈 full rounded */
+  border-radius: 20px;   /* 👈 full rounded */
   box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
 
