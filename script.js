@@ -1,16 +1,16 @@
 const products = {
     veg: [
-        {id:1, name:"Mango Pickle(Pieces)", prices: {"250g":129,"500g":249,"1000g":499}, image:"images/mangooooo.jpeg"},
-        {id:2, name:"Tomato Pickle", prices: {"250g":129,"500g":249,"1000g":499}, image:"images/Tomato2.jpg"},
-        {id:3, name:"Lemon Pickle", prices: {"250g":129,"500g":249,"1000g":499}, image:"images/Lemon.jpg"},
-        {id:4, name:"Vusirikaya Pickle", prices: {"250g":129,"500g":249,"1000g":499}, image:"images/Amla.jpg"},
-        {id:5, name:"Chinthakaya Pickle", prices: {"250g":129,"500g":249,"1000g":499}, image:"images/Tamrind.jpeg"},
-        {id:6, name:"Gongura Pickle", prices: {"250g":129,"500g":249,"1000g":499}, image:"images/mangooo.jpg"},
-        {id:7, name:"PanduMirchi Pickle", prices: {"250g":129,"500g":249,"1000g":499}, image:"images/mangooo.jpg"},
-        {id:8, name:"Mango Pickle(Thurumu)", prices: {"250g":129,"500g":249,"1000g":499}, image:"images/mangooo.jpg"},
-        {id:9, name:"Gongura Pandu Mirchi Pickle", prices: {"250g":129,"500g":249,"1000g":499}, image:"images/mangooo.jpg"},
-        {id:10, name:"Kakarakaya Pickle", prices: {"250g":129,"500g":249,"1000g":499}, image:"images/mangooo.jpg"},
-        {id:11, name:"Allam Pickle", prices: {"250g":129,"500g":249,"1000g":499}, image:"images/mangooo.jpg"}
+        {id:1, name:"Mango Pickle(Pieces)", prices: {"250g":129,"500g":249,"1000g":499}, image:"images/MangoPieces_AP.jpeg"},
+        {id:2, name:"Tomato Pickle", prices: {"250g":129,"500g":249,"1000g":499}, image:"images/TomatoPickle_AP.jpeg"},
+        {id:3, name:"Lemon Pickle", prices: {"250g":129,"500g":249,"1000g":499}, image:"images/Lemon_AP.jpeg"},
+        {id:4, name:"Vusirikaya Pickle", prices: {"250g":129,"500g":249,"1000g":499}, image:"images/Vusiri_AP.jpeg"},
+        {id:5, name:"Chinthakaya Pickle", prices: {"250g":129,"500g":249,"1000g":499}, image:"images/Chinthakaya_AP.jpeg"},
+        {id:6, name:"Gongura Pickle", prices: {"250g":129,"500g":249,"1000g":499}, image:"images/Gongura_AP.jpeg"},
+        {id:7, name:"PanduMirchi Pickle", prices: {"250g":129,"500g":249,"1000g":499}, image:"images/Pandumirchi_AP.jpeg"},
+        {id:8, name:"Mango Pickle(Thurumu)", prices: {"250g":129,"500g":249,"1000g":499}, image:"images/MangoThurum_AP.jpeg"},
+        {id:9, name:"Gongura Pandu Mirchi Pickle", prices: {"250g":129,"500g":249,"1000g":499}, image:"images/Gongurapandu_AP.jpeg"},
+        {id:10, name:"Kakarakaya Pickle", prices: {"250g":129,"500g":249,"1000g":499}, image:"images/Kakarakaya_AP.jpeg"},
+        {id:11, name:"Allam Pickle", prices: {"250g":129,"500g":249,"1000g":499}, image:"images/Allam_AP.jpeg"}
     ],
     nonveg: [
         {id:12, name:"Chicken Pickle(Boneless)", prices: {"250g":329,"500g":699,"1000g":1299}, image:"images/ChickenBoneless.jpg"},
