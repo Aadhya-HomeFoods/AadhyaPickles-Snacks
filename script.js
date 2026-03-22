@@ -133,6 +133,7 @@ function addToCart(id, name){
     showToast("Item Added to Cart ✓");
 
     updateStickyCart();
+    updateCartCount();
 
 }
 
@@ -187,6 +188,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     updateStickyCart();  // ✅ ADD THIS
+    updateCartCount(); 
 
     const sticky = document.getElementById("stickyCart");
 
@@ -253,6 +255,8 @@ function updateQty(index, change) {
 
     localStorage.setItem("cart", JSON.stringify(cart));
     loadCart();
+    updateCartCount();
+    updateStickyCart();
 }
 
 function removeItem(index) {
@@ -263,6 +267,8 @@ function removeItem(index) {
 
     localStorage.setItem("cart", JSON.stringify(cart));
     loadCart();
+    updateCartCount();
+    updateStickyCart();
 }
 
 
@@ -390,3 +396,22 @@ function updateStickyCart() {
     }
 }
 
+function updateCartCount() {
+    let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+    let totalItems = 0;
+    cart.forEach(item => {
+        totalItems += item.qty;
+    });
+
+    const countEl = document.getElementById("cartCount");
+
+    if (!countEl) return;
+
+    if (totalItems > 0) {
+        countEl.style.display = "block";
+        countEl.innerText = totalItems;
+    } else {
+        countEl.style.display = "none";
+    }
+}
