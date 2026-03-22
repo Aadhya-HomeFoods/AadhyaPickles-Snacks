@@ -6,20 +6,36 @@
     <meta charset="UTF-8">
     <title>Aadhya Home Food's</title>
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
 <header>
-    <div class="logo">
-    Aadhya Home Food's
+    <a href="index.html" class="Mainclass"><div class="logo">Aadhya Home Food's
     <img src="images/mainlogo2.0.jpg" alt="Logo" class="logo-img">
-    </div>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="contact.html">Contact</a>
-        <a href="cart.html" class="cart-link">Cart 🛒</a>
+    </div></a>
+
+    <nav class="nav-bar">
+        <a href="index.html" class="nav-item">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </a>
+        <a href="about.html" class="nav-item">
+            <i class="fas fa-info-circle"></i>
+            <span>About</span>
+        </a>
+        <a href="contact.html" class="nav-item">
+            <i class="fas fa-phone"></i>
+            <span>Contact</span>
+        </a>
+        <a href="cart.html" class="nav-item cart-link">
+            <i class="fas fa-shopping-cart"></i>
+            <span>Cart</span>
+            <span id="cartCount" class="cart-count">0</span>
+        </a>
     </nav>
+
 </header>
 
 <section class="hero">
@@ -32,7 +48,7 @@
 
     <div class="categories">
         <a href="category.html?type=veg" class="category">
-            <img src="images/Main.Veg.jpeg">
+            <img src="images/Main.veg.jpeg">
             <p><strong>Veg Pickles</strong></p>
         </a>
 
@@ -73,6 +89,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 <div id="stickyCart">
   🛒 View Cart | ₹0
 </div>
-
+<script src="script.js"></script>
 </body>
 </html>
