@@ -13,13 +13,13 @@ const products = {
         {id:11, name:"Allam Pickle", prices: {"250g":129,"500g":249,"1000g":499}, image:"images/mangooo.jpg"}
     ],
     nonveg: [
-        {id:12, name:"Chicken Pickle(Boneless)", prices: {"250g":329,"500g":699,"1000g":1299}, image:"images/nonveg.jpg"},
-        {id:13, name:"Chicken Pickle", prices: {"250g":249,"500g":499,"1000g":999}, image:"images/nonveg.jpg"},
-        {id:14, name:"Chicken Kheema", prices: {"250":399,"500g":799,"1000g":1499}, image:"images/nonveg.jpg"},
-        {id:15, name:"Mutton Pickle(Boneless)", prices: {"250":499,"500":999,"1000g":1999}, image:"images/nonveg.jpg"},
-        {id:16, name:"Mutton Pickle", prices: {"250":399,"500":799,"1000g":1499}, image:"images/nonveg.jpg"},
-        {id:17, name:"Mutton Kheema", prices: {"250":649,"500":1249,"1000g":2499}, image:"images/nonveg.jpg"},
-        {id:18, name:"Prawn Pickle", prices: {"250":399,"500":799,"1000g":1499}, image:"images/nonveg.jpg"}
+        {id:12, name:"Chicken Pickle(Boneless)", prices: {"250g":329,"500g":699,"1000g":1299}, image:"images/ChickenBoneless.jpg"},
+        {id:13, name:"Chicken Pickle", prices: {"250g":249,"500g":499,"1000g":999}, image:"images/ChickenBone2.0.jpg"},
+        {id:14, name:"Chicken Kheema Pickle", prices: {"250":399,"500g":799,"1000g":1499}, image:"images/ChickenKheema.jpeg"},
+        {id:15, name:"Mutton Pickle(Boneless)", prices: {"250":499,"500":999,"1000g":1999}, image:"images/Muttonpickle.jpeg"},
+        {id:16, name:"Mutton Pickle", prices: {"250":399,"500":799,"1000g":1499}, image:"images/MuttonBone2.0.jpeg"},
+        {id:17, name:"Mutton Kheema Pickle", prices: {"250":649,"500":1249,"1000g":2499}, image:"images/MuttonKheema.jpeg"},
+        {id:18, name:"Prawn Pickle", prices: {"250":399,"500":799,"1000g":1499}, image:"images/Prawns.jpeg"}
     ],
     snacks: [
         {id:19, name:"Murukulu", prices: {"250g":89,"500g":179,"1000g":349}, image:"images/Murukuluimage.jpg"},
