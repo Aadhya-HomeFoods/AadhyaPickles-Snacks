@@ -1004,3 +1004,18 @@ button[id^="add-btn-"] {
     color: white;
     text-decoration: none;
 }
+
+@media (max-width: 600px) {
+
+  /* Default for all pages */
+  body {
+    padding-top: 70px;
+  }
+
+  /* REMOVE gap only for home page */
+  .home-page {
+    padding-top: 0;
+  }
+
+}
+
