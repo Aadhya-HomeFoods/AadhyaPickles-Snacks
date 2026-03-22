@@ -22,16 +22,16 @@ const products = {
         {id:18, name:"Prawn Pickle", prices: {"250":399,"500":799,"1000g":1499}, image:"images/nonveg.jpg"}
     ],
     snacks: [
-        {id:19, name:"Murukulu", prices: {"250g":89,"500g":179,"1000g":349}, image:"images/snacks.jpg"},
-        {id:20, name:"Sakinalu", prices: {"250g":89,"500g":179,"1000g":349}, image:"images/snacks.jpg"},
-        {id:21, name:"Chakkilu", prices: {"250g":89,"500g":179,"1000g":349}, image:"images/snacks.jpg"},
-        {id:22, name:"Kajji Kayalu", prices: {"20 Piece":300,"40 Piece":589,"100 Pieces":1499}, image:"images/snacks.jpg"},
-        {id:23, name:"Ravva Laddu", prices: {"250g":89,"500g":179,"1000g":349}, image:"images/snacks.jpg"},
-        {id:24, name:"Boondhi Laddu", prices: {"250g":89,"500g":179,"1000g":349}, image:"images/snacks.jpg"},
-        {id:25, name:"Sweet Gavvalu", prices: {"250g":89,"500g":179,"1000g":349}, image:"images/snacks.jpg"},
-        {id:26, name:"Kaaram Gavvalu", prices: {"250g":89,"500g":179,"1000g":349}, image:"images/snacks.jpg"},
-        {id:27, name:"Ariselu", prices: {"250g":139,"500g":299,"1000g":449}, image:"images/snacks.jpg"},
-        {id:28, name:"Kaaram Boondhi", prices: {"250g":89,"500g":179,"1000g":349}, image:"images/snacks.jpg"}
+        {id:19, name:"Murukulu", prices: {"250g":89,"500g":179,"1000g":349}, image:"images/Murukuluimage.jpg"},
+        {id:20, name:"Sakinalu", prices: {"250g":89,"500g":179,"1000g":349}, image:"images/Sakinalu.jpg"},
+        {id:21, name:"Chekkalu", prices: {"250g":89,"500g":179,"1000g":349}, image:"images/Chekkalu.jpg"},
+        {id:22, name:"Kajji Kayalu", prices: {"20 Piece":300,"40 Piece":589,"100 Pieces":1499}, image:"images/Kajjikayalu.jpg"},
+        {id:23, name:"Ravva Laddu", prices: {"250g":89,"500g":179,"1000g":349}, image:"images/Ravvaladdu.jpg"},
+        {id:24, name:"Boondhi Laddu", prices: {"250g":89,"500g":179,"1000g":349}, image:"images/Boondhiladdu.jpg"},
+        {id:25, name:"Sweet Gavvalu", prices: {"250g":89,"500g":179,"1000g":349}, image:"images/Sweetgavvalu.jpg"},
+        {id:26, name:"Kaaram Gavvalu", prices: {"250g":89,"500g":179,"1000g":349}, image:"images/Kaaramgavvalu.jpg"},
+        {id:27, name:"Ariselu", prices: {"250g":139,"500g":299,"1000g":449}, image:"images/Ariselu.jpg"},
+        {id:28, name:"Kaaram Boondhi", prices: {"250g":89,"500g":179,"1000g":349}, image:"images/Kaaramboondhi.jpg"}
     ],
     podulu: [
         {id:29, name:"Karvepaku Podi", prices: {"250g":179,"500g":349,"1000g":699}, image:"images/Karvepaku.jpg"},
